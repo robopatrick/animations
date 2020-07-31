@@ -63,11 +63,11 @@
     
     src: url('../fonts/cera/CeraPro-Light.eot');
     
-    src: url('../fonts/cera/CeraPro-Light.eot') format('eot'),
+    src: url('../fonts/cera/CeraPro-Light.woff') format('woff'),
     
-    url('../fonts/cera/CeraPro-Light.eot') format('woff'),
+    url('../fonts/cera/CeraPro-Light.woff2') format('woff2'),
     
-    url('../fonts/cera/CeraPro-Light.eot') format('truetype');
+    url('../fonts/cera/CeraPro-Light.ttf') format('truetype');
     
     font-weight: 300;
     
@@ -156,7 +156,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* Typography */
 h1{
-	font-size:60px;
+    font-size:60px;
 }
 h2{
 	font-size:40px;
@@ -691,7 +691,7 @@ background: radial-gradient(50% 50% at 50% 50%, rgba(43, 9, 88, .8) 0%, rgba(43,
     margin-top: 30px;
 }
 .work__circles-one {
-    padding: 45px 17px;
+    padding: 45px 5px;
     width: 119px;
     height: 119px;
     border-radius: 50%;
@@ -707,7 +707,7 @@ background: radial-gradient(50% 50% at 50% 50%, rgba(43, 9, 88, .8) 0%, rgba(43,
 }
 
 .work__circles-two {
-    padding: 45px 17px;
+    padding: 45px 5px;
     width: 119px;
     height: 119px;
     border-radius: 50%;
@@ -722,7 +722,7 @@ background: radial-gradient(50% 50% at 50% 50%, rgba(43, 9, 88, .8) 0%, rgba(43,
     backdrop-filter: blur(14px);
 }
 .work__circles-three {
-    padding: 45px 17px;
+    padding: 45px 5px;
     width: 119px;
     height: 119px;
     border-radius: 50%;
